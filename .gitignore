@@ -1,3 +1,38 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ambientes virtuais
+env/
+venv/
+.venv/
+
+# Arquivos de configuração pessoal
+.vscode/
+*.code-workspace
+
+# Checkpoints e caches do Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.so
+*.log
+
+# Arquivos do Anaconda
+anaconda_projects/
+*.conda
+*.yaml
+
+# Dados temporários ou sensíveis
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.joblib
+*.db
+*.sqlite
+*.h5
+*.json
+
+# Scripts de execução pessoal
 abrir-jupyter.ps1
-anaconda_projects
-.ipynb_checkpoints
